@@ -31,7 +31,7 @@ function ContactForm() {
     <>
       <div className='max-h-full min-h-screen w-screen flex justify-center items-center bg-greenLighter px-10 py-5 font-Karla'>
         <div className="rounded-lg bg-white w-full p-5 flex flex-col gap-4 md:w-1/2 lg:w-[600px]">
-          <h1 className="leading-0 text-greyDarker font-semibold text-2xl">Contact Us</h1>
+          <h1 className="leading-0 text-greyDarker font-semibold text-2xl" role="contact us title">Contact Us</h1>
           <form onSubmit={handleSubmit(onContactForm)} method="POST" className="flex flex-col gap-5">
             <div className="flex flex-col gap-2 md:flex-row">
               <div className="flex flex-col gap-1 text-greyDarker md:flex-grow">
