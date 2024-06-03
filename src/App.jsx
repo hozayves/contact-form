@@ -18,7 +18,8 @@ function App() {
     <>
       <RouterProvider router={router} />
       <Toaster toastOptions={{
-        className: "leading-none bg-greyDarker p-0"
+        className: "leading-none bg-greyDarker p-0",
+        style: "background-color: hsl(187, 24%, 22%) padding: 0"
       }} />
     </>
   )
