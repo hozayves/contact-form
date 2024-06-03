@@ -67,7 +67,7 @@ function ContactForm() {
               <input
                 type="text"
                 {...register("email")}
-                className={`${errors.email ? "border-red hover:border-red focus: border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
+                className={`${errors.email ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
               />
               {errors.email && <span className="text-red text-xs">{errors.email.message}</span>}
             </div>
