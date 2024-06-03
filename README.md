@@ -10,4 +10,4 @@
         <a href="https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj">Challenge</a>
     </h3>
 </div>
-<p align="center">Solution for a challenge from <a href="https://frontendmentor.io">frontendmentor.io</a></p>
+<p align="center">Solution for a challenge from <a href="https://frontendmentor.io">frontendmentor.io</a></p> 
