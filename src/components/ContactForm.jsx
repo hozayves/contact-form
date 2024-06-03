@@ -25,6 +25,7 @@ function ContactForm() {
     ))
     reset()
   }
+  console.log(errors)
 
   return (
     <>
@@ -41,7 +42,7 @@ function ContactForm() {
                 <input
                   type="text"
                   {...register("firstname")}
-                  className="rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out"
+                  className={`${errors.firstname ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
                 />
                 {errors.firstname?.message && <span className="text-red text-xs">{errors.firstname.message}</span>}
               </div>
@@ -53,7 +54,7 @@ function ContactForm() {
                 <input
                   type="text"
                   {...register("lastname")}
-                  className="rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out"
+                  className={`${errors.lastname ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
                 />
                 {errors.lastname && <span className="text-red text-xs">{errors.lastname.message}</span>}
               </div>
@@ -66,7 +67,7 @@ function ContactForm() {
               <input
                 type="text"
                 {...register("email")}
-                className="rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out"
+                className={`${errors.email ? "border-red hover:border-red focus: border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
               />
               {errors.email && <span className="text-red text-xs">{errors.email.message}</span>}
             </div>
@@ -109,7 +110,7 @@ function ContactForm() {
               <textarea
                 {...register("message")}
                 id="message"
-                className="rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 h-32 md:h-20 transition delay-150 ease-in-out resize-none"
+                className={`${errors.message ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 h-32 md:h-20 transition delay-150 ease-in-out resize-none`}
               ></textarea>
               {errors.message && <span className="text-red text-xs">{errors.message.message}</span>}
             </div>
