@@ -1,7 +1,7 @@
 
 ## Contact form #1
 <p align="center">
-    <img width="100%" src="https://github.com/hozayves/Frontend-challenges/blob/main/qr-code-component-main/screenshot/qr-code-component.PNG" alt="Material Bread logo">
+    <img width="100%" src="https://github.com/hozayves/contact-form-challenge/blob/main/screenshot/desktop-design.jpg" alt="Material Bread logo">
 </p>
 <div align="center">
     <h3>
