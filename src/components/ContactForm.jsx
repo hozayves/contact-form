@@ -117,8 +117,8 @@ function ContactForm() {
               ></textarea>
               {errors.message && <span className="text-red text-xs">{errors.message.message}</span>}
             </div>
-            <div className="flex flex-col gap-2 text-greyMedium font-light select-none">
-              <div className="flex gap-3 itmes-center justify-start">
+            <div className="flex flex-col gap-1 text-greyMedium font-light select-none">
+              <div className="flex gap-2 itmes-center justify-start">
                 <input
                   type="checkbox"
                   {...register("contacted")}
