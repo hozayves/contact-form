@@ -41,6 +41,7 @@ function ContactForm() {
                 </label>
                 <input
                   type="text"
+                  id="firstname"
                   {...register("firstname")}
                   className={`${errors.firstname ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
                 />
@@ -53,6 +54,7 @@ function ContactForm() {
                 </label>
                 <input
                   type="text"
+                  id="lastname"
                   {...register("lastname")}
                   className={`${errors.lastname ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
                 />
@@ -66,6 +68,7 @@ function ContactForm() {
               </label>
               <input
                 type="text"
+                id="email"
                 {...register("email")}
                 className={`${errors.email ? "border-red hover:border-red focus:border-red" : ""} rounded-md border border-greyMedium hover:border-greenMedium focus:border-greenMedium outline-none p-3 transition delay-150 ease-in-out`}
               />

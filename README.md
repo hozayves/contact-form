@@ -6,7 +6,7 @@
 <div align="center">
     <h3>
         <a href="https://contact-form-challengex.netlify.app/">Live</a> <span>|</span> 
-        <a href="https://www.frontendmentor.io/solutions/qr-code-component-xl2AFGHnGx">Solution</a> <span>|</span> 
+        <a href="https://www.frontendmentor.io/solutions/contact-form-KWaCc7aPCI">Solution</a> <span>|</span> 
         <a href="https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj">Challenge</a>
     </h3>
 </div>
@@ -49,4 +49,4 @@ I learnt a react hook and zod for validate a form
 
 ### Acknowledgments
 
-A big thank you to anyone providing feedback on my <a href="">Solution</a>. It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/contact-form-KWaCc7aPCI">Solution</a>. It definitely helps to find new ways to code and find easier solutions!
