@@ -8,7 +8,16 @@ import SuccessToast from "./SuccessToast";
 function ContactForm() {
   // eslint-disable-next-line no-unused-vars
   const [queryType, setQueryType] = useState("");
-  const { register, handleSubmit, watch, formState: { errors }, reset } = useForm({ resolver: zodResolver(contactFormSchema) })
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+    reset
+  } = useForm(
+    {
+      resolver: zodResolver(contactFormSchema)
+    })
   const query = watch("query")
   const onContactForm = () => {
     toast(() => (
@@ -16,8 +25,6 @@ function ContactForm() {
     ))
     reset()
   }
-
-  console.log(errors)
 
   return (
     <>
